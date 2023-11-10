@@ -17,6 +17,18 @@ If not, see <http://www.gnu.org/licenses/>.
 
 ©Copyright 2023 Laurent Lyaudet
 """
+"""
+The empty tuple is really useful.
+But it is implementation dependent for it to be a constant:
+https://docs.python.org/3.12/reference/expressions.html#parenthesized-forms
+https://stackoverflow.com/questions/41983180/is-the-empty-tuple-in-python-a-constant
+https://stackoverflow.com/questions/8185776/compare-object-to-empty-tuple-with-the-is-operator-in-python-2-x
+https://stackoverflow.com/questions/38328857/why-does-is-return-true-when-is-and-is-return-false
+https://stackoverflow.com/questions/14135542/how-is-tuple-implemented-in-cpython
+I'm wondering if there would be additional efficiency gains
+to treat the empty tuple and the constants here differently
+at execution of Python scripts.
+"""
 # from typing import Iterable, Container, Collection, Mapping
 from types import MappingProxyType
 

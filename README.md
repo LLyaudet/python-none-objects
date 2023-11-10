@@ -36,7 +36,7 @@ def foo(some: int, other: Iterable = (), thing: Mapping = MappingProxyType({})):
         bar(some, o, thing)
 ```
 
-This package introduces constant to make the code more readable:
+This package introduces constants to make the code more readable:
 
 ```python3
 from typing import Iterable, Mapping

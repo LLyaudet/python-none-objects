@@ -47,7 +47,16 @@ def foo(some: int, other: Iterable = NoneIterable, thing: Mapping = NoneMapping)
         bar(some, o, thing)
 ```
 
+Be sure to look at the discussions on GitHub:
+<https://github.com/LLyaudet/python-none-objects/discussions>.
+
+There is a poll on the naming convention you would prefer:
+<https://github.com/LLyaudet/python-none-objects/discussions/2>.
+
+And there is a discussion on various ideas to optimize the code with these constants:
+<https://github.com/LLyaudet/python-none-objects/discussions/3>.
+
 I think it would be better to have this kind of constants in the standard library.
-But I'm not good at defending this kind of ideas on the mailing lists and discussions
-that mostly throw 99 % ideas to the trash.
-If you want to defend this on python-dev or python-ideas, please do :).
+If you think after reading everything, that it is indeed a good idea, add a star to this repository to let the rest of the Python community know that you would like to see such constant objects in the language :).
+<https://github.com/LLyaudet/python-none-objects/>
+If the project gains popularity, I'll try to propose it officialy.

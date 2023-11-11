@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "python-none-objects"
-version = "1.0.0"
+version = "1.0.1"
 description = "Add more constant \"None\" objects to Python to avoid boilerplate code"
 readme = "README.md"
 authors = [

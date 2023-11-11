@@ -59,4 +59,4 @@ And there is a discussion on various ideas to optimize the code with these const
 I think it would be better to have this kind of constants in the standard library.
 If you think after reading everything, that it is indeed a good idea, add a star to this repository to let the rest of the Python community know that you would like to see such constant objects in the language :).
 <https://github.com/LLyaudet/python-none-objects/>
-If the project gains popularity, I'll try to propose it officialy.
+If the project gains popularity, I'll try to propose it officially.

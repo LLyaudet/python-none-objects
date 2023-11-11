@@ -1,4 +1,8 @@
-# A collection of "None" objects compatible with various Python types
+# python-none-objects
+
+[![pypi-version]][pypi]
+
+**A collection of "None" objects compatible with various Python types**
 
 The following code yields warning for "Default argument value is mutable".
 
@@ -60,3 +64,6 @@ I think it would be better to have this kind of constants in the standard librar
 If you think after reading everything, that it is indeed a good idea, add a star to this repository to let the rest of the Python community know that you would like to see such constant objects in the language :).
 <https://github.com/LLyaudet/python-none-objects/>
 If the project gains popularity, I'll try to propose it officially.
+
+[pypi-version]: https://img.shields.io/pypi/v/python-none-objects.svg
+[pypi]: https://pypi.org/project/python-none-objects/

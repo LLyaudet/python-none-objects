@@ -29,10 +29,10 @@ I'm wondering if there would be additional efficiency gains
 to treat the empty tuple and the constants here differently
 at execution of Python scripts.
 """
-# from typing import Iterable, Container, Collection, Mapping
 from types import MappingProxyType
+from typing import Any, Collection, Container, Iterable, Mapping, Never
 
-NoneIterable = ()
-NoneContainer = NoneIterable
-NoneCollection = NoneIterable
-NoneMapping = MappingProxyType({})
+NoneCollection: Collection[Never] = ()
+NoneIterable: Iterable[Never] = NoneCollection
+NoneContainer: Container[Never] = NoneCollection
+NoneMapping: Mapping[Any, Never] = MappingProxyType({})

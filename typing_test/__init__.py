@@ -22,6 +22,7 @@ import sys
 from typing import Collection, Container, Iterable, Mapping
 
 sys.path.insert(0, "../src/")
+# pylint: disable=wrong-import-position
 from python_none_objects import (
     NoneCollection,
     NoneContainer,
@@ -31,25 +32,33 @@ from python_none_objects import (
 
 
 def foo_collection(x: Collection[str] = NoneCollection) -> bool:
-    # Pass typing
+    """
+    Check typing for NoneCollection.
+    """
     for y in x:
         print(f"foo {y}")
     return "toto" in x
 
 
 def foo_iterable(x: Iterable[str] = NoneIterable) -> None:
-    # Pass typing
+    """
+    Check typing for NoneIterable.
+    """
     for y in x:
         print(f"foo {y}")
 
 
 def foo_container(x: Container[str] = NoneContainer) -> bool:
-    # Pass typing
+    """
+    Check typing for NoneContainer.
+    """
     return "toto" in x
 
 
 def foo_mapping(x: Mapping[str, str] = NoneMapping) -> None:
-    # Pass typing
+    """
+    Check typing for NoneMapping.
+    """
     for y, z in x.items():
         print(f"foo {y} bar {z}")
 

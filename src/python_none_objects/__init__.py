@@ -30,7 +30,14 @@ at execution of Python scripts.
 """
 
 from types import MappingProxyType
-from typing import Any, Collection, Container, Iterable, Mapping, Never
+from typing import (
+    Any,
+    Collection,
+    Container,
+    Iterable,
+    Mapping,
+    Never,
+)
 
 NoneCollection: Collection[Never] = ()
 NoneIterable: Iterable[Never] = NoneCollection

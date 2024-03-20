@@ -17,6 +17,7 @@ If not, see <http://www.gnu.org/licenses/>.
 
 ©Copyright 2023 Laurent Lyaudet
 """
+
 import sys
 from typing import Collection, Container, Iterable, Mapping
 

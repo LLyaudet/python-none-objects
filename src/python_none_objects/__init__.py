@@ -28,6 +28,7 @@ I'm wondering if there would be additional efficiency gains
 to treat the empty tuple and the constants here differently
 at execution of Python scripts.
 """
+
 from types import MappingProxyType
 from typing import Any, Collection, Container, Iterable, Mapping, Never
 

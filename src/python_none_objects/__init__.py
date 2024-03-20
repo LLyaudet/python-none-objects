@@ -16,8 +16,7 @@ along with python-none-objects.
 If not, see <http://www.gnu.org/licenses/>.
 
 ©Copyright 2023 Laurent Lyaudet
-"""
-"""
+--------------------------------------------------------------------------
 The empty tuple is really useful.
 But it is implementation dependent for it to be a constant:
 https://docs.python.org/3.12/reference/expressions.html#parenthesized-forms

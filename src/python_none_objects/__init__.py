@@ -15,7 +15,7 @@ You should have received a copy of the GNU Lesser General Public License
 along with python-none-objects.
 If not, see <http://www.gnu.org/licenses/>.
 
-©Copyright 2023 Laurent Lyaudet
+©Copyright 2023-2024 Laurent Lyaudet
 --------------------------------------------------------------------------
 The empty tuple is really useful.
 But it is implementation dependent for it to be a constant:

@@ -22,7 +22,7 @@ import sys
 from typing import Collection, Container, Iterable, Mapping
 
 sys.path.insert(0, "../src/")
-# pylint: disable=wrong-import-position
+# pylint: disable-next=wrong-import-position
 from python_none_objects import (
     NoneCollection,
     NoneContainer,

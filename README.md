@@ -13,7 +13,6 @@
 ![GitHub License](https://img.shields.io/github/license/llyaudet/python-none-objects)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-none-objects)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/llyaudet/python-none-objects)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/LLyaudet)](https://github.com/sponsors/LLyaudet)
 
 |     **A collection of "None" objects compatible with various Python types**     |
 

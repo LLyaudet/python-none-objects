@@ -31,8 +31,8 @@ def foo(some: int, other: List = [], thing: Dict = {}):
 ```
 
 It is usually recommended to use None instead
-(<https://stackoverflow.com/questions/41686829>\
-/why-does-pycharm-warn-about-mutable-default-arguments-\
+(<https://stackoverflow.com/questions/41686829>
+/why-does-pycharm-warn-about-mutable-default-arguments-
 how-can-i-work-around-the):
 
 ```python3

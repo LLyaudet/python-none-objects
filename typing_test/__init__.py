@@ -40,6 +40,7 @@ def foo_collection(x: Collection[str] = NoneCollection) -> bool:
     """
     Check typing for NoneCollection.
     """
+
     for y in x:
         print(f"foo {y}")
     return "toto" in x
@@ -49,6 +50,7 @@ def foo_iterable(x: Iterable[str] = NoneIterable) -> None:
     """
     Check typing for NoneIterable.
     """
+
     for y in x:
         print(f"foo {y}")
 
@@ -57,6 +59,7 @@ def foo_container(x: Container[str] = NoneContainer) -> bool:
     """
     Check typing for NoneContainer.
     """
+
     return "toto" in x
 
 
@@ -64,6 +67,7 @@ def foo_mapping(x: Mapping[str, str] = NoneMapping) -> None:
     """
     Check typing for NoneMapping.
     """
+
     for y, z in x.items():
         print(f"foo {y} bar {z}")
 

@@ -101,46 +101,65 @@ in the language :).
 <https://github.com/LLyaudet/python-none-objects/>
 If the project gains popularity, I'll try to propose it officially.
 
-[PyPI-version-badge]: https://img.shields.io/pypi/v/python-none-objects.svg
+[PyPI-version-badge]: https://img.shields.io/pypi/v/\
+python-none-objects.svg
 
-[PyPI-package-page]: https://pypi.org/project/python-none-objects/
+[PyPI-package-page]: https://pypi.org/project/\
+python-none-objects/
 
-[Downloads-badge]: https://img.shields.io/pypi/dm/python-none-objects
+[Downloads-badge]: https://img.shields.io/pypi/dm/\
+python-none-objects
 
-[PyPIStats-package-page]: https://pypistats.org/packages/python-none-objects
+[PyPIStats-package-page]: https://pypistats.org/packages/\
+python-none-objects
 
-[Code-style:black:badge]: https://img.shields.io/badge/code%20style-black-000000.svg
+[Code-style:black:badge]: https://img.shields.io/badge/\
+code%20style-black-000000.svg
 
 [Black-GitHub.com]: https://github.com/psf/black
 
-[Imports:isort:badge]: https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336
+[Imports:isort:badge]: https://img.shields.io/badge/\
+%20imports-isort-%231674b1?style=flat&labelColor=ef8336
 
 [Isort-GitHub.io]: https://pycqa.github.io/isort/
 
-[Typecheck:mypy:badge]: https://www.mypy-lang.org/static/mypy_badge.svg
+[Typecheck:mypy:badge]: https://www.mypy-lang.org/static/\
+mypy_badge.svg
 
 [Typecheck-mypy-lang.org]: https://mypy-lang.org/
 
-[Linting:pylint:badge]: https://img.shields.io/badge/linting-pylint-yellowgreen
+[Linting:pylint:badge]: https://img.shields.io/badge/\
+linting-pylint-yellowgreen
 
 [Pylint-GitHub.com]: https://github.com/pylint-dev/pylint
 
-[CodeFactor-badge]: https://www.codefactor.io/repository/github/llyaudet/python-none-objects/badge
+[CodeFactor-badge]: https://www.codefactor.io/repository/github/\
+llyaudet/python-none-objects/badge
 
-[CodeFactor-package-page]: https://www.codefactor.io/repository/github/llyaudet/python-none-objects
+[CodeFactor-package-page]: https://www.codefactor.io/repository/\
+github/llyaudet/python-none-objects
 
-[CodeClimateMaintainability-badge]: https://api.codeclimate.com/v1/badges/266efb337cabd7d7941e/maintainability
+[CodeClimateMaintainability-badge]: https://api.codeclimate.com/v1/\
+badges/266efb337cabd7d7941e/maintainability
 
-[CodeClimateM13y-package-page]: https://codeclimate.com/github/LLyaudet/python-none-objects/maintainability
+[CodeClimateM13y-package-page]: https://codeclimate.com/github/\
+LLyaudet/python-none-objects/maintainability
 
-[Codacy-badge]: https://app.codacy.com/project/badge/Grade/4be488463e31459bb2ba02794091610d
+[Codacy-badge]: https://app.codacy.com/project/badge/Grade/\
+4be488463e31459bb2ba02794091610d
 
-[Codacy-package-page]: https://app.codacy.com/gh/LLyaudet/python-none-objects/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[Codacy-package-page]: https://app.codacy.com/gh/LLyaudet/\
+python-none-objects/dashboard?utm_source=gh\
+&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
 
-[GitHub-top-language-badge]: https://img.shields.io/github/languages/top/llyaudet/python-none-objects
+[GitHub-top-language-badge]: https://img.shields.io/github/\
+languages/top/llyaudet/python-none-objects
 
-[GitHub-license-badge]: https://img.shields.io/github/license/llyaudet/python-none-objects
+[GitHub-license-badge]: https://img.shields.io/github/license/\
+llyaudet/python-none-objects
 
-[PyPI-python-version-badge]: https://img.shields.io/pypi/pyversions/python-none-objects
+[PyPI-python-version-badge]: https://img.shields.io/pypi/pyversions/\
+python-none-objects
 
-[GitHub-code-size-in-bytes-badge]: https://img.shields.io/github/languages/code-size/llyaudet/python-none-objects
+[GitHub-code-size-in-bytes-badge]: https://img.shields.io/github/\
+languages/code-size/llyaudet/python-none-objects

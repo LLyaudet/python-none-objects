@@ -41,6 +41,9 @@ isort .
 echo "Running black"
 black .
 
+echo "Checking empty lines after Python function docstrings"
+pcregrep -M $'def [^"]*"""([^"]|"(?!""))*"""\n\n' -- **/*.py
+
 echo "Running pylint"
 pylint src/python_none_objects/
 pylint typing_test/
